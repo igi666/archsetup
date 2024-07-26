@@ -8,4 +8,4 @@ git clone https://aur.archlinux.org/paru.git
 cd paru
 makepkg -si
 #run root parts via helper script
-sudo ./archsetup-2-root.sh
+sudo bash ./archsetup-2-root.sh
