@@ -1,6 +1,6 @@
 #!/bin/bash
 #paru requirements
-pacman -S --needed base-devel git rust --noconfirm
+sudo pacman -S --needed base-devel git rust --noconfirm
 #instakll paru
 mkdir ~/Download
 cd ~/Download
