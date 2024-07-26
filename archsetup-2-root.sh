@@ -1,7 +1,7 @@
 #!/bin/bash
 
 #setup pacman packages
-pacman -S less lsof steam strawberry gcalculator fastfetch networkmanager refind --noconfirm
+pacman -S less lsof steam strawberry gcalculator fastfetch networkmanager refind neovim --noconfirm
 #setup rEFInd boot manager
 sudo refind-install
 sudo mkdir /boot/EFI/refind/themes
