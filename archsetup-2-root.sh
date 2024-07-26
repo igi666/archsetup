@@ -2,8 +2,6 @@
 
 #setup pacman packages
 pacman -S less lsof steam strawberry gcalculator fastfetch networkmanager refind --noconfirm
-#use paru to install AUR packages
-paru -S google-chrome xone-dkms xone-dongle-firmware onedriver
 #setup rEFInd boot manager
 sudo refind-install
 sudo mkdir /boot/EFI/refind/themes
